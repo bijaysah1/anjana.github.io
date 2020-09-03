@@ -55,8 +55,10 @@
 	}
 }
 </style>
+ <script src="https://ajax.googleapis.com/ajax/ libs/jquery/3.5.1/jquery.min.js"></script> 
 </head>
 <body>
+	
 	<div class="container">
 		<div class="wrap-container">
 			<img src="sernipubg.jpg" >
@@ -64,6 +66,9 @@
 		</div>
 		<h2 class="glow" id="typewriter" ></h2>
 	</div>
+	<audio src="audiosong.m4a" controls autoplay loop style="background-color: transparent; opacity: 0.25;">
+		
+	</audio>
 	<script src='core.js'></script>
 	<script>
 
@@ -71,13 +76,13 @@
       loop: true,
     });
 
-    typewriter.typeString('Happy BirthDay!')
+    typewriter.typeString('Happy BirthDay To You!')
       .pauseFor(2500)
       .deleteAll()
-      .typeString('Happy BirthDay Dear Sherni')
+      .typeString('Happy BirthDay To You Dear Sherni !')
       .pauseFor(2500)
-      .deleteChars(6)
-      .typeString('<strong>Anjana!<strong>')
+      .deleteChars(8)
+      .typeString('<strong> Anjana !<strong>')
       .pauseFor(2500)
       .start();
 	</script>
